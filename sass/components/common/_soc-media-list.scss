@@ -1,0 +1,46 @@
+.social-media-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-list__icon + .social-media-list__icon {
+  margin-left: 10px;
+}
+.social-media-list__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+// in section team
+
+.social-media-list__link--light {
+  fill: #afb1b8;
+
+  transition: fill var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
+}
+
+.social-media-list__link--light:hover,
+.social-media-list__link--light:focus {
+  fill: var(--main-white);
+  background-color: var(--accent-color);
+}
+
+// in footer
+
+.social-media-list__link--dark {
+  fill: var(--main-white);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
+}
+.social-media-list__link--dark:hover,
+.social-media-list__link--dark:focus {
+  background-color: var(--accent-color);
+}
