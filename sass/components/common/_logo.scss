@@ -6,16 +6,16 @@
 
   text-decoration: none;
 
-  .header__& {
-    color: var(--primary-text-color);
-  }
   &__accent {
     color: var(--accent-color);
   }
-  .footer__& {
-    display: block;
-    margin-bottom: 20px;
+}
+.header__logo {
+  color: var(--primary-text-color);
+}
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
 
-    color: var(--main-white);
-  }
+  color: var(--main-white);
 }
