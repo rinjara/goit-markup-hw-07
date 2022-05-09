@@ -1,27 +1,28 @@
 .contacts {
   display: flex;
   margin-left: auto;
-}
-.contacts__item + .contacts__item {
-  margin-left: 50px;
-}
 
-.contacts__link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  &__item + &__item {
+    margin-left: 50px;
+  }
 
-  padding-top: 32px;
-  padding-bottom: 32px;
+  &__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
-  color: var(--secondary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.contacts__icon {
-  fill: currentColor;
-  margin-right: 10px;
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
 }

@@ -9,12 +9,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-.address-list__link:hover,
-.address-list__link:focus {
-  color: var(--accent-color);
-}
 
-.address-list__link--white {
-  color: var(--main-white);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  &--white {
+    color: var(--main-white);
+  }
 }

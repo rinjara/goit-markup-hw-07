@@ -5,8 +5,9 @@
 .site-nav {
   display: flex;
   align-items: center;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
+
+  & .link:hover,
+  & .link:focus {
+    color: var(--accent-color);
+  }
 }

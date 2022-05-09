@@ -5,16 +5,17 @@
   line-height: 1.19;
 
   text-decoration: none;
-}
-.header__logo {
-  color: var(--primary-text-color);
-}
-.logo__accent {
-  color: var(--accent-color);
-}
-.footer__logo {
-  display: block;
-  margin-bottom: 20px;
 
-  color: var(--main-white);
+  .header__& {
+    color: var(--primary-text-color);
+  }
+  &__accent {
+    color: var(--accent-color);
+  }
+  .footer__& {
+    display: block;
+    margin-bottom: 20px;
+
+    color: var(--main-white);
+  }
 }
