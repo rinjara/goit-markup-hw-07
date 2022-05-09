@@ -21,20 +21,20 @@
     border-radius: 3px;
     margin-right: 8px;
   }
-}
-.modal-check:checked + .confirm-label::before {
-  background-color: var(--accent-color);
-  background-image: url(../images/icons/check-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  border: transparent;
-}
-.modal-check:hover + .confirm-label::before,
-.modal-check:focus + .confirm-label::before {
-  border-color: var(--accent-color);
-}
 
+  .modal-check:checked + &::before {
+    background-color: var(--accent-color);
+    background-image: url(../images/icons/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: transparent;
+  }
+  .modal-check:hover + &::before,
+  .modal-check:focus + &::before {
+    border-color: var(--accent-color);
+  }
+}
 .link.confirm-rools {
   margin-left: 4px;
 
